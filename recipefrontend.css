@@ -1,0 +1,62 @@
+body{
+    font-family: 'Times New Roman', Times, serif ;
+    color:black;
+    font-style: italic;
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+.playwrite-gb-s-H{
+    font-family: "Playwrite GB S", cursive;
+    font-optical-sizing: auto;
+    font-weight: 200px;
+    font-style: normal;
+  }
+  
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    color: white;
+    background-color: rgba(0, 0, 0,0.4);
+    text-align: center;
+    padding: 10px 0;
+    z-index: 1000;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+main{
+    width:60%;
+    margin: 40px auto;
+    opacity: 50%;
+    font-size: 30px;
+    padding:20px;
+}
+/*main section:hover{
+    padding: 40px;
+}*/
+.introduction, .ingredients, .process{
+    transition:ease;
+    background-color: rgb(255, 255, 255);
+    font-weight: bold;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom:20px ;
+    box-shadow: 0 15px 20px black;
+}
+.ingredients h2, .process h2{
+    color: darkblue;
+}
+ul,ol{
+    margin-left: 15px;
+}
+footer{
+    background-color: rgba(0, 0, 0, 0.4); /* Semi-transparent black background for footer */
+    color: white; /* Text color */
+    padding: 5px; /* Padding inside the footer */
+    text-align: center; /* Center-align text */
+    margin-top: auto; /* Push footer to the bottom */
+}
