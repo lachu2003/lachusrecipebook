@@ -74,6 +74,25 @@
           font-style: italic;
           text-decoration: none;
         }
+        @media (max-width: 768px) {
+            .carousel-caption a {
+                font-size: 16px;
+                padding: 3px 7px;
+            }
+            .carousel-item {
+                height: 300px; /* Adjust height for smaller screens */
+            }
+        }
+        @media (max-width: 576px) {
+            .carousel-caption a {
+                font-size: 14px;
+                padding: 2px 5px;
+            }
+            .carousel-item {
+                height: 250px; /* Further adjust height for extra small screens */
+            }
+        }
+
 </style>
     </style>
 </head>
